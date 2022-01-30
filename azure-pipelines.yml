@@ -12,7 +12,6 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-# Starter pipeline
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
@@ -23,4 +22,3 @@ steps:
     mavenAuthenticateFeed: false
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
-
